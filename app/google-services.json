@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "317019102342",
+    "firebase_url": "https://fbdemo-95fff.firebaseio.com",
+    "project_id": "fbdemo-95fff",
+    "storage_bucket": "fbdemo-95fff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317019102342:android:d86c44bb833f72f44c4507",
+        "android_client_info": {
+          "package_name": "com.example.fbdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317019102342-2dvi8tdm8b2clg86mvhbtsk8iqgduqfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fbdemo",
+            "certificate_hash": "14a260f2c205a545da194eb0c8ade6ea2819c9df"
+          }
+        },
+        {
+          "client_id": "317019102342-2qn1gumittgd4knvi968i1dprnkumvo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcQMtHyZ_6mBRf6IL7R_DHB7drosRccDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317019102342-2qn1gumittgd4knvi968i1dprnkumvo8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

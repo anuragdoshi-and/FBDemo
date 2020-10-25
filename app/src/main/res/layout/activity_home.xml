@@ -6,13 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:text="Daddy's Home"
-        android:textSize="30dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:id="@+id/cname"
+        android:layout_marginTop="100dp"/>
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="issue"
+        android:layout_below="@+id/cname"
+        android:id="@+id/cissue"
+        android:layout_marginTop="100dp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cissue"
+        android:id="@+id/device"
+        android:layout_marginTop="100dp"
+        android:entries="@array/devices"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/device"
+        android:id="@+id/submit"
+        android:text="Sumbit"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        />
 
 </RelativeLayout>

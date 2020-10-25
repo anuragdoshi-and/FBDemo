@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">FBDemo</string>
+    <array name="devices">
+        <item>SELECT YOUR DEVICE</item>
+        <item>iPad Pro 11" 2019</item>
+        <item>iPad Pro 13" 2019</item>
+        <item>iPad Pro 11" 2020</item>
+        <item>iPad Pro 13" 2020</item>
+        <item>iPhone X</item>
+        <item>iPhone Xr</item>
+        <item>iPhone 11</item>
+        <item>iPhone 11 Pro</item>
+        <item>iPhone 11 Pro Max</item>
+    </array>
 </resources>

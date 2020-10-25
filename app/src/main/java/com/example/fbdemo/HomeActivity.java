@@ -16,10 +16,10 @@ import com.google.firebase.database.FirebaseDatabase;
 public class HomeActivity extends AppCompatActivity {
 
     DatabaseReference databaseDetails;
-    EditText custName;
-    EditText custIssue;
-    Button submit;
-    Spinner spinnerDevice;
+    private EditText custName;
+    private EditText custIssue;
+    private Button submit;
+    private Spinner spinnerDevice;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,10 +1,10 @@
 package com.example.fbdemo;
 
 public class Details {
-    String name;
-    String issue;
-    String device;
-    String custid;
+    public String name;
+    public String issue;
+    public String device;
+    public String custid;
 
     public Details() {
 
@@ -32,4 +32,23 @@ public class Details {
     public String getCustid() {
         return custid;
     }
+
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setIssue(String issue) {
+        this.issue = issue;
+    }
+
+    public void setDevice(String device) {
+        this.device = device;
+    }
+
+    public void setCustid(String custid) {
+        this.custid = custid;
+    }
+
+
 }

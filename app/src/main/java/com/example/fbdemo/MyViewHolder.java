@@ -14,7 +14,7 @@ public class MyViewHolder extends RecyclerView.ViewHolder {
         super(itemView);
 
         textViewName = itemView.findViewById(R.id.custName);
-        textViewIssue = itemView.findViewById(R.id.custDevice);
+       // textViewIssue = itemView.findViewById(R.id.custDevice);
         textViewIssue  = itemView.findViewById(R.id.custIssue);
 
     }

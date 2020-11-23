@@ -4,8 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#e2e3de"
     tools:context=".MainActivity">
 
+
+    <TextView
+        android:id="@+id/title_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="104dp"
+        android:layout_marginBottom="553dp"
+        android:gravity="top"
+        android:text="Request Pro"
+        android:textColor="#33749c"
+        android:textSize="55sp" />
 
     <Button
         android:layout_width="match_parent"
